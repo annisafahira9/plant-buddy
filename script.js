@@ -45,28 +45,28 @@ function updateUI() {
   // update mood
   if (water_level > 74) {
     // thriving (75-100%)
-    plant_icon.src = "assets/leafy-stem-plant/leafy-stem-thriving.gif";
+    plant_icon.src = "assets/leafy-stem-thriving.gif";
     mood_tag.textContent = "Thriving";
     care_reminder.textContent = "- All good here, just vibing -";
     restart_btn.style.display = "none";
     water_btn.style.display = "flex";
     // okay (40-74%)
   } else if (water_level > 39) {
-    plant_icon.src = "assets/leafy-stem-plant/leafy-stem-okay.gif";
+    plant_icon.src = "assets/leafy-stem-okay.gif";
     mood_tag.textContent = "Okay";
     care_reminder.textContent = "- Doing fine, no worries -";
     restart_btn.style.display = "none";
     water_btn.style.display = "flex";
     // thirsty (1-39%)
   } else if (water_level > 0) {
-    plant_icon.src = "assets/leafy-stem-plant/leafy-stem-thirsty.gif";
+    plant_icon.src = "assets/leafy-stem-thirsty.gif";
     mood_tag.textContent = "Thirsty";
     care_reminder.textContent = "- Feeling a little dry over here... -";
     restart_btn.style.display = "none";
     water_btn.style.display = "flex";
     // wilted (0%)
   } else {
-    plant_icon.src = "assets/leafy-stem-plant/leafy-stem-wilted.gif";
+    plant_icon.src = "assets/leafy-stem-wilted.gif";
     mood_tag.textContent = "Wilted";
     care_reminder.textContent = "- Your plant has wilted -";
     restart_btn.style.display = "flex";
