@@ -1,0 +1,24 @@
+{
+  "name": "plant-buddy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annisafahira9/plant-buddy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/annisafahira9/plant-buddy/issues"
+  },
+  "homepage": "https://github.com/annisafahira9/plant-buddy#readme",
+  "devDependencies": {
+    "electron": "^43.1.0",
+    "electron-reload": "^2.0.0-alpha.1"
+  }
+}
